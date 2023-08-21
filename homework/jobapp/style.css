@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(204, 201, 0, 0.46);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.job-details {
+    background-color: #195719;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    appearance: none;
+}
+
+.checkbox-group input[type="checkbox"],
+.radio-group input[type="radio"] {
+    display: none;
+}
+
+.checkbox-group label,
+.radio-group label {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.checkbox-group label:before,
+.radio-group label:before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.checkbox-group input[type="checkbox"]:checked + label:before,
+.radio-group input[type="radio"]:checked + label:before {
+    background-color: #0047cc;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type="file"] {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+}
+
+input[type="submit"] {
+    background-color: #0047cc;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #00368c;
+}

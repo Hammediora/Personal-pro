@@ -1,0 +1,51 @@
+body {
+    background: #cceeff;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#title h1 {
+    font-size: 4em;
+    padding-top: 50px;
+    color: #00a7cc;
+}
+
+#gameholder {
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.penguins {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    cursor: pointer;
+    background-image: url('images/mound_1.png');
+    background-size: cover;
+}
+
+.mound {
+    background-image: url('images/mound_1.png');
+}
+
+.moundHover {
+    background-image: url('images/mound_1_hover.png');
+}
+
+.penguin {
+    background-image: url('images/penguin_1.png');
+}
+
+.yeti {
+    background-image: url('images/yeti.png');
+}
+.penguins:hover {
+    background-image: url('images/mound_1_hover.png');
+}

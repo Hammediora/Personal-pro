@@ -1,0 +1,121 @@
+<html>
+	<head>
+		<title>HTML &amp; CSS - Tables</title>
+		<!-- Title limited to ~65 characters-->
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<meta name="description" content="This is in class work">
+
+		<meta name="keywords" content="html, css, web development, neiu">
+	</head>
+	<body>
+		<header>
+			<section class="left">
+				<div class="big">
+					NEIU
+				</div>
+				<div class="small">
+					CS300
+				</div>
+			</section>
+			<section class="right">
+				<div class="big">
+					HTML &amp; CSS
+				</div>
+				<div class="small">
+					Tables
+				</div>
+				<nav class="navHorizontal">
+					<ul>
+						<li>
+							<a class="current" href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="index.html">Page Two</a>
+						</li>
+						<li>
+							<a href="index.html">Page Three</a>
+						</li>
+						<li>
+							<a href="index.html">Page Four</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+		</header>
+		<div id="container">
+			<article>
+				<h1>Home Page</h1>
+				<section>
+					<h2>Table #1</h2>
+					<table id="table1">
+						<tr>
+							<th colspan="4">My First Table</th>
+						</tr>
+						<tr>
+							<th rowspan="3"></th>
+							<th>Title One</th>
+							<th>Title Two</th>
+							<th>Title Three</th>
+						</tr>
+						<tr>
+							<td>Data One</td>
+							<td>Data Two</td>
+							<td>Data Three</td>
+						</tr>
+						<tr>
+							<td>Data One</td>
+							<td>Data Two Data Two Data Two</td>
+							<td>Data Three</td>
+						</tr>
+					</table>
+				</section>
+				<section>
+					<h2>Table #2 (w/ head, body and foot)</h2>
+					<table id="table2">
+						<thead>
+							<tr>
+								<th colspan="4">My First Table</th>
+							</tr>
+							<tr>
+							<th></th>
+							<th>Title One</th>
+							<th>Title Two</th>
+							<th>Title Three</th>
+						</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="2"></td>
+								<td>Data One</td>
+								<td>Data Two</td>
+								<td>Data Three</td>
+							</tr>
+							<tr>
+								<td>Data One</td>
+								<td>Data Two Data Two Data Two</td>
+								<td>Data Three</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<th colspan="3"></th>
+								<th>CORNER</th>
+							</tr>
+						</tfoot>
+					</table>
+				</section>
+			</article>
+		</div>
+		<div class="clear"></div>
+		<footer>
+			<section class="left ftrLeft">
+				Northeastern Illinois University - CS300
+			</section>
+			<section class="right ftrRight">
+				&copy; Copyright 2018
+			</section>
+		</footer>
+	</body>
+</html>

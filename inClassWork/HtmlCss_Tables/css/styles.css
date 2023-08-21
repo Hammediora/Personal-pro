@@ -1,0 +1,229 @@
+body{
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: calibri, arial, sans-serif;
+}
+
+header{
+	float: left;
+	/*position: fixed;*/
+	/*top: 0;
+	left: 0;*/
+	width: 96%;
+	height: 50px;
+	padding: 20px 2%;
+	border-bottom: 2px solid black;
+	background: white;
+	z-index: 5;
+}
+
+.left{
+	float: left;
+	width: 40%;
+}
+
+.right{
+	float: right;
+	width: 40%;
+	text-align: right;
+}
+
+.big{
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.small{
+	font-weight: 400;
+	text-transform: lowercase;
+}
+
+#container{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+
+article{
+	float: right;
+	width: 90%;
+	min-width: 490px;
+	padding-right: 2%;
+	padding-left: 8%;
+	height: auto;
+	min-height: 500px;
+}
+
+aside{
+	float: left;
+	width: 150px;
+	padding-left: 2%;
+	height: 500px;
+	border-right: 1px dotted black;
+}
+
+h2{
+	float: left;
+	clear: both;
+	width: 50%;
+}
+
+section h2{
+	width: 100%;
+}
+
+div{
+	float: left;
+	clear: both;
+	width: 100%;
+	
+}
+
+.clear{
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+footer{
+	float: left;
+	width: 100%;
+	padding: 20px 0;
+	margin-top: 30px;
+	border-top: 5px double black;
+}
+
+.ftrLeft{
+	padding-left: 2%;
+}
+
+.ftrRight{
+	padding-right: 2%;
+}
+
+/*
+ * Navigation 
+ */
+
+nav{
+
+}
+
+nav ul{
+	width: 100%;
+	padding-left: 0;
+	list-style: none;
+}
+
+nav ul li{
+	text-align: center;
+}
+
+nav ul li a{
+	display: inline-block;
+	width: 100%;
+	text-decoration: none;
+	font-size: 16px;
+	color: #34495e;
+}
+
+.navHorizontal ul li{
+	display: inline-block;
+	width: 20%;
+}
+
+.navHorizontal ul li a{
+	border-top: 5px solid white;
+}
+
+.navHorizontal ul li a:hover{
+	border-top-color: #f1c40f;
+}
+
+.navHorizontal ul li a.current{
+	border-top-color: #34495e;
+}
+
+/*Tables*/
+table{
+	border: 5px solid black;
+	border-spacing: 10px; /*only if borders aren't collapsed*/
+	border-collapse: collapse;
+}
+
+table td, table th{
+	border: 3px solid black;
+}
+
+td, th{
+	height: 50px;
+	padding: 5px 10px;
+}
+
+td{
+	background: #99D1D5;
+}
+
+tr:nth-last-of-type(1) td:nth-of-type(1){
+	vertical-align: top;
+}
+
+tr:nth-last-of-type(1) td:nth-of-type(2){
+	vertical-align: middle; /*default*/
+}
+
+tr:nth-last-of-type(1) td:nth-of-type(3){
+	vertical-align: bottom;
+}
+
+td:nth-of-type(odd):hover{
+	background: #E98E4E;
+}
+
+td:nth-of-type(even):hover{
+	background: #f0b083;
+}
+
+th:hover{
+	background: #6CA3B2;
+}
+
+#table2 thead{
+	background: darkGray;
+	color: white;
+}
+
+#table2 thead tr:nth-of-type(1){
+	font-size: 36px;
+}
+
+#table2 tbody td{
+	background: lightGray;
+}
+
+#table2 tfoot{
+	background: black;
+	color: white;
+}
+
+.orange{
+	background: #E98E4E;
+}
+
+.orangeHover{
+	background: #f0b083;
+}
+
+.blueGreen{
+	background: #6CA3B2;
+}
+
+.lightAqua{
+	background: #99D1D5;
+}
+
+.lightAquaHover{
+	background: #b8dfe2;
+}

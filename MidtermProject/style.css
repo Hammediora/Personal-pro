@@ -1,0 +1,348 @@
+/* == GENERAL STYLES == */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+/* == HEADER == */
+header.black-back {
+    background-color: rgb(20, 20, 20);
+    height: inherit;
+}
+
+header.black-back div.container, div.white-back .container, main.services-and-authentication div.container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    height: inherit;
+    color: white;
+}
+
+/* == PARAGRAPHS == */
+.black-back .container p, div.white-back p {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* == DIVISIONS == */
+div.white-back {
+    background-color: rgb(241, 241, 241);
+    height: inherit;
+}
+
+div.white-back h2 {
+    color: rgb(2, 122, 2);
+    font-weight: lighter;
+    font-size: 28px;
+}
+
+div.white-back p {
+    color: rgb(19, 19, 19);
+}                                                                                                                                                                        /* == MAIN SECTION == */
+
+main.services-and-authentication {
+    display: flex;
+    justify-content: space-between;
+    background: url("Images/hero-tall-002.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -20px;
+    height: inherit;
+    padding: 20px;
+}
+
+/* == MAIN SERVICES == */
+main.services-and-authentication div.services {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: inherit;
+}
+/* == TRANSPARENT BOX == */
+.auth-card {
+    background-color: rgba(0, 0, 0, 0.53);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.background-image {
+    background: url('Images/break-through-with-flare-green.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+}
+
+.goal-section {
+    display: flex;
+    align-items: center; /* this will vertically align the items */
+}
+
+.vertical-line {
+    width: 2px;
+    height: 50px;
+    background-color: #ffffff;
+    margin-right: 15px;
+}
+
+/* style for the image in front of "Our Goal" */
+.goal-image {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+/* == ICONS == */
+.icon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.signin-icon {
+    background: url('Images/Screen Shot 2016-02-15 at 6.56.14 PM.png') no-repeat center center / cover;
+}
+
+.student-icon {
+    background: url('Images/Screen Shot 2016-02-15 at 6.56.20 PM.png') no-repeat center center / cover;
+}
+
+.educator-icon {
+    background: url('Images/Screen Shot 2016-02-15 at 6.56.24 PM.png') no-repeat center center / cover;
+}
+button[type="button"]:first-child {
+    margin-bottom: 20px;
+}
+.student-button {
+    margin-bottom: 10px;
+}
+
+/* == CARDS == */
+
+.cards {
+    margin-top: 20px;
+}
+
+div.cards {
+    display: flex;
+}
+
+div.cards h3 {
+    font-size: 13px;
+}
+
+/* == INDIVIDUAL CARDS == */
+div.first-card, div.second-card {
+    height: 100px;
+    width: 170px;
+    background: rgb(65, 121, 65);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+div.first-card {
+    background: rgb(65, 121, 65);
+}
+
+div.second-card {
+    margin-left: 20px;
+}
+
+/* == LIST ELEMENTS IN CARDS == */
+div.cards li {
+    list-style: none;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+/* == MAIN HEADING == */
+div.services h3.heading {
+    font-size: 18px;
+}
+
+/* == PARAGRAPHS IN SERVICES == */
+div.services p {
+    font-size: 10px;
+}
+/* == LINKS == */
+span.link {
+    color: rgb(65, 121, 65);
+}
+
+/* == AUTHENTICATION == */
+div.authentication .register {
+    margin-top: 10px;
+}
+
+div.authentication {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: space-around;
+}
+
+/* == INPUT FIELDS IN AUTHENTICATION == */
+div.authentication input {
+    padding: 10px;
+    font-size: 14px;
+    border: 0;
+}
+
+div.authentication p.desc {
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+/* == BUTTONS IN AUTHENTICATION == */
+div.authentication button {
+    padding: 10px;
+    border-radius: 3px;
+    border: 0;
+    background: rgb(65, 121, 65);
+    color: white;
+    font-size: 14px;
+}
+
+/* == DETAILS == */
+main.details {
+    display: flex;
+    flex-wrap: wrap; /* new */
+    height: inherit;
+    margin-top: 20px;
+}
+
+main.details div.text p.desc {
+    color: rgb(112, 112, 112);
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+main.details div.text p.refer-to {
+    font-size: 13px;
+}
+
+main.details .text {
+    flex: 1;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* == DATA == */
+main.details .data {
+    flex: 1;
+    width: 50%; /* new */
+}
+
+/* == IMAGE BACK == */
+div.img-back {
+    background: url("Images/Screen Shot 2016-02-15 at 6.55.29 PM.png");
+    background-size: cover;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.img-back span.big {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+/* Smaller font size for the 'Truth in Numbers' part */
+div.data p.truth {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+main.details .video-help {
+    display: flex;
+
+}
+
+main.details .video-help .video-trouble {
+    margin-right: 5px;
+}
+
+/* Style for 'Having trouble watching the video?' part */
+div.data p.video-trouble {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style for 'View the transcript' link */
+div.data a.transcript {
+    font-size: 7px;
+    color: blue;
+    text-decoration: none;
+}
+
+/* == PARAGRAPHS IN DETAILS == */
+main.details div.text p {
+    color: rgb(112, 112, 112);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+/* == FOOTER == */
+footer {
+    margin-top: .7vh;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: space-between;
+    background: rgba(9, 8, 8, 0.86);
+}
+
+/* == LINKS IN FOOTER == */
+footer .links {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+}
+
+/* == COPYRIGHT IN FOOTER == */
+footer .copyright {
+    font-size: 10px;
+    padding: 20px;
+}
+
+/* == LIST ELEMENTS IN FOOTER == */
+footer ul li {
+    list-style: none;
+}
+
+/* == TITLES IN FOOTER == */
+footer .title {
+    color: rgb(172, 172, 172);
+}
+
+/* == LINKS IN FOOTER == */
+footer .link {
+    color: white;
+}
+
+/* == COPYRIGHT TEXT == */
+footer .copyright {
+    color: rgb(219, 219, 219);
+}
+

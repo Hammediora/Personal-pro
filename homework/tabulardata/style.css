@@ -1,0 +1,28 @@
+body {
+    background-color: #fff2e6;
+    font-size: 2vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    font-size: 13px;
+
+}
+
+th,
+td {
+    width: 50px;
+}
+
+#no-border {
+    border: 0px;
+}

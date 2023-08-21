@@ -1,0 +1,214 @@
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    width: 60%;
+    margin: auto;
+}
+
+header.black-back {
+    background-color: rgb(20, 20, 20);
+    height: 5vh;
+}
+
+header.black-back div.container, div.white-back .container, main.services-and-authentication div.container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    height: inherit;
+    color: white;
+}
+
+.black-back .container p, div.white-back p {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+div.white-back {
+    background-color: rgb(241, 241, 241);
+    height: 6vh;
+}
+
+div.white-back h2 {
+    color: rgb(2, 122, 2);
+    font-weight: lighter;
+    font-size: 28px;
+}
+
+div.white-back p {
+    color: rgb(19, 19, 19);
+}
+
+main.services-and-authentication {
+    background: url("https://images.unsplash.com/flagged/photo-1563713076139-d9f44e576124?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -123px;
+    height: 35vh;
+    padding: 20px;
+}
+
+main.services-and-authentication div.services {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: inherit;
+}
+
+div.cards {
+    display: flex;
+}
+
+div.cards h3 {
+    font-size: 13px;
+}
+
+div.first-card, div.second-card {
+    height: 140px;
+    width: 140px;
+    background: rgb(2, 122, 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+div.first-card {
+    background: rgb(1, 90, 1);
+}
+
+div.second-card {
+    margin-left: 20px;
+}
+
+div.cards li {
+    list-style: none;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+div.services h3.heading {
+    font-size: 18px;
+}
+
+span.link {
+    color: rgb(2, 122, 2);
+}
+
+div.services p {
+    font-size: 15px;
+}
+
+div.authentication .register {
+    margin-top: 10px;
+}
+
+div.authentication {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: space-around;
+}
+
+div.authentication input {
+    padding: 10px;
+    font-size: 14px;
+    border: 0;
+}
+
+div.authentication p.desc {
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+div.authentication button {
+    padding: 10px;
+    border-radius: 3px;
+    border: 0;
+    background: rgb(2, 122, 2);
+    color: white;
+    font-size: 14px;
+}
+
+main.details {
+    display: flex;
+    height: 30vh;
+    margin-top: 20px;
+}
+
+main.details .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.img-back {
+    background: url("https://images.unsplash.com/photo-1613375920388-f1f70f341f8a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+div.img-back span.big {
+    font-size: 30px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+div.data p {
+    margin-top: 5px;
+}
+
+main.details div.text p {
+    color: rgb(112, 112, 112);
+}
+
+footer {
+    margin-top: .7vh;
+    display: flex;
+    flex-direction: column;
+    height: 17vh;
+    justify-content: space-between;
+    background: black;
+}
+
+footer .links {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+}
+
+footer .copyright {
+    padding: 20px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer .title {
+    color: rgb(172, 172, 172);
+}
+
+footer .link {
+    color: white;
+}
+
+footer .copyright {
+    color: rgb(219, 219, 219);
+}
